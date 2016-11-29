@@ -30,10 +30,10 @@ class GUI:
         b2 = Button(self.Frame1, text='Register', command=self.Register)
         b2.grid(row=4, column=4, pady=10, padx=5)
 
-        photo = PhotoImage(file='buzz.gif')
-        L1 = Label(self.Frame1, image=photo, height=500, width=400)
-        L1.photo=photo
-        L1.grid(row=5,column=5)
+        #photo = PhotoImage(file='buzz.gif')
+        #L1 = Label(self.Frame1, image=photo, height=500, width=400)
+        #L1.photo=photo
+        #L1.grid(row=5,column=5)
 
 
     def Register(self):
